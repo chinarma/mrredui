@@ -1,0 +1,62 @@
+{
+  "name": "mrredui",
+  "version": "0.0.2b",
+  "license": "MIT",
+  "files": [
+    "dist/lib/*"
+  ],
+  "main": "dist/lib/mrredui.js",
+  "module": "dist/lib/mrredui.esm.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@vueuse/core": "^9.3.1",
+    "animate.css": "^4.1.1",
+    "axios": "^1.1.3",
+    "github-markdown-css": "^5.1.0",
+    "lodash": "^4.17.21",
+    "prismjs": "^1.29.0",
+    "vite-plugin-markdown": "^2.1.0",
+    "vue": "^2.0.0 || >=3.0.0",
+    "vue-demi": "^0.13.11",
+    "vue-router": "4"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-replace": "^5.0.1",
+    "@vicons/antd": "^0.12.0",
+    "@vicons/carbon": "^0.12.0",
+    "@vicons/fa": "^0.12.0",
+    "@vicons/fluent": "^0.12.0",
+    "@vicons/ionicons4": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "@vicons/tabler": "^0.12.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "glob": "^8.0.3",
+    "marked": "^4.1.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-esbuild": "^4.10.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.55.0",
+    "vite": "^3.1.4"
+  }
+}

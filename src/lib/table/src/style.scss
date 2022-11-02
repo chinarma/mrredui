@@ -1,0 +1,30 @@
+$border-color: lightgray;
+$border: 1px solid $border-color;
+$header-color: #f2f4f7;
+
+//----------------------------------------------------------------
+// 防止全局css对本组件的影响
+th,
+td,
+table,
+tr {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@media print {
+    .print-hidden {
+        display: none;
+    }
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rtable-even-row {
+    background-color: #f9f9f9;
+}
+
+.rtable-even-selected-row {
+    background-color: #fcf8e3;
+}
